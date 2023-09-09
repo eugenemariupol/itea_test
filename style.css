@@ -301,7 +301,31 @@ align-items: center;
     line-height: 26px;
     text-decoration-line: underline;
 }
-
+.contact{
+    height: 40vh;
+    width: 1193px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact *{
+    color: var(--colors-heading, #1E0E62);
+text-align: center;
+font-family: DM Sans;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -1px;
+}
+.contact a{
+    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
