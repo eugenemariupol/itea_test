@@ -33,15 +33,15 @@ ul {
 }
 .header {
     display: flex;
-    width: 1193px;
     height: 120px;
     gap: 50px;
-    margin: 0 auto;
+    padding: 0 10rem;
     align-items: center;
     position: sticky;
-    justify-content: space-around;
+    justify-content: space-between;
     top: 0;
     background-color: white;
+    border-bottom: 2px solid #eee;
 }
 .logo{
     width: 97px;
@@ -71,7 +71,7 @@ ul {
     height: 30px;
 }
 .home{
-    height: 90vh;
+    height: 95vh;
     width: 1193px;
     display: flex;
     margin: auto;
@@ -106,11 +106,12 @@ ul {
 }
 .about{
     width: 1193px;
-    height: 90vh;
+    height: 80vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 38px;
+    justify-content: center;
 }
 .about h2{
     color: #42446E;
@@ -200,10 +201,10 @@ align-items: center;
 #tech_stack{
     margin: auto;
     width: 1193px;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .img_skills{
     display: flex;
@@ -217,7 +218,7 @@ align-items: center;
     display: flex;
     margin: auto;
     width: 1193px;
-    height: 155vh;
+    height: 140vh;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -257,7 +258,7 @@ align-items: center;
     line-height: 26px;
 }
 .text_project{
-    width: 314px;
+    width: 297px;
     color: var(--dark-content, #666);
     font-family: Poppins;
     font-size: 18px;
@@ -302,7 +303,7 @@ align-items: center;
     text-decoration-line: underline;
 }
 .contact{
-    height: 40vh;
+    height: 45vh;
     width: 1193px;
     display: flex;
     margin: auto;
@@ -341,8 +342,7 @@ letter-spacing: -1px;
 
 
 footer{
-    width: 1193px;
-    margin: 0 auto;
+    padding: 0 10rem;
 }
 .footer_up{
     display: flex;
@@ -395,7 +395,6 @@ footer{
 }
 .footer_down{
     display: flex;
-    width: 1209px;
     margin: 0px auto 59px auto;
     justify-content: space-between;
 }
@@ -430,4 +429,6 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+@media (max-width: 1400px){
 }
