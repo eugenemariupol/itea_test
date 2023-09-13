@@ -607,7 +607,8 @@ footer{
     width: 650px;
     }
     .about{
-    width: 650px;}
+    width: 650px;
+    }
     #tech_stack{
     width: 650px;
     }
@@ -620,6 +621,7 @@ footer{
     }
     .contact{
     width: 650px;
+    }
     footer{
     width: 650px;
     margin: 0 auto;
@@ -672,8 +674,5 @@ footer{
         }
   }
   @media (max-width: 480px) {
-    /*
-    Стили для устройств, у которых ширина viewport меньше или равно 770 пикселей.
-    Это множество мобильных устройств
-    */
+    
   }
