@@ -597,14 +597,81 @@ footer{
   }
 
   @media (max-width: 990px) {
-    /*
-    Стили для устройств, у которых ширина viewport меньше или равно 990 пикселей,
-    но больше 770 пикселей.
-    Эти стили подойдут для некоторых мобильных устройств и планшетов
-    */
+    .header{
+    justify-content: space-around;
+    }
+    .social_media ul{
+    display: none;
+    }
+    .home{
+    width: 650px;
+    }
+    .about{
+    width: 650px;}
+    #tech_stack{
+    width: 650px;
+    }
+    #projects{
+    width: 650px;
+    }
+    .my_projects{
+    width: 650px;
+    justify-content: space-evenly;
+    }
+    .contact{
+    width: 650px;
+    footer{
+    width: 650px;
+    margin: 0 auto;
+    padding: 0;
+    }
   }
 
   @media (max-width: 770px) {
+    .header{
+        justify-content: space-between;
+        width: 450px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        }
+        .nav{
+        display: none;
+        }
+        .social_media ul{
+        display: flex;
+        }
+        .home{
+        width: 450px;
+
+        }
+        .about{
+        width: 450px;
+        }
+        #tech_stack{
+        width: 450px;
+        }
+        #projects{
+        width: 450px;
+        }
+        .my_projects{
+        width: 450px;
+        justify-content: space-evenly;
+        }
+        .contact{
+        width: 450px;
+        }
+        footer{
+        width: 450px;
+        margin: 0 auto;
+        padding: 0;
+        }
+        .footer_nav ul{
+        display: none;
+        
+        }
+  }
+  @media (max-width: 480px) {
     /*
     Стили для устройств, у которых ширина viewport меньше или равно 770 пикселей.
     Это множество мобильных устройств
