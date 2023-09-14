@@ -707,7 +707,8 @@ footer{
         width: 350px;
         text-align: center;
         }
-        
+        .experience_example{
+        width: 350px;}
         #tech_stack{
         width: 350px;
         }
