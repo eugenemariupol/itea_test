@@ -3,7 +3,7 @@ const checkbox1 = document.querySelector("#checkbox1");
 const root = document.querySelector(":root");
 
 const themes = {
-  default: {
+  dark: {
     "--bg-color": "#191919",
     "--bg-color-pj": "#363636",
     "--border-color": "#191919",
@@ -16,7 +16,7 @@ const themes = {
     "--checkbox1-color": "#263ce7",
     "--label-color": "#d1d7fa",
   },
-  dark: {
+  default: {
     "--bg-color": "#ffffff",
     "--bg-color-pj": "#ffffff",
     "--border-color": "#eee",

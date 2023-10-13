@@ -332,6 +332,7 @@ display: none;}
 }
 footer{
     margin: 0 auto;
+    width: 1193px;
 }
 .footer_up{
     display: flex;
@@ -604,7 +605,8 @@ footer{
         scroll-margin-top: 5em;
     }
     footer{
-        padding: 0 8rem;
+        width: 744px;
+
     }
     .footer_up{
     margin-top: 127.7px;
